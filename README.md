@@ -28,7 +28,7 @@ O objetivo do código é criar uma ligação em um primeiro momento utilizando o
 A partir daqui ocorre uma mescla de VBA e SAP Scipting.
 
 ### O SAP Scripting
-Responsável por servir como orientação/ localização dos inputs presentes dentro da transação de criação de materiais (MM01 - Criação de Materiais). Irá servir para passagem entre guias, retroceder etc. </br></br>
+Responsável por servir como orientação/ localização dos inputs, passagem entre guias, retroceder etc. </br></br>
 ### Visual Basic for Application
 É o responsável for realizar tratamentos de dados, seleção de células dentro de uma tabela. Além disso, poderá receber (extração) dados ou enviar (inserção) no SAP. </br></br>
 
