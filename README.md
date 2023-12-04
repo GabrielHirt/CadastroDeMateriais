@@ -9,7 +9,6 @@ Automação para realizar o cadastro de materiais no SAP.
 - Microsoft Excel
 
 ## Linguagens de Programação Utilizadas
-- Gui Scripting
 - Visual Basic for Application (VBA)
 
 # Como o código funciona?
