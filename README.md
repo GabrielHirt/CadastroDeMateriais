@@ -1,5 +1,5 @@
 # CadastroDeMateriais
-Automação para realizar o cadastro de materiais no SAP.
+Automação para realizar o cadastro de materiais no SAP por meio do SAP Scripting + VBA.
 
 ## Obsevações
 O presente código VBA fornecido é uma versão reduzida do código original. A medida foi tomada com base na não divulgação/ exposição dos dados reais presentes no projeto.
@@ -7,8 +7,7 @@ O presente código VBA fornecido é uma versão reduzida do código original. A 
 ## Objetivo
 - Automatizar tarefas de entrada de dados no SAP Gui.
 
-Abaixo um Gif demonstrando a inserção de valores no SAP Gui. Os campos foram ocultados para evitar a exposição de dados, apenas as guias ficaram disponíveis para visualização.
-Como o caso retratado foi um exemplo, não houve o salvamento do item e apenas um item foi demosntrado na lista Excel.
+Abaixo um vídeo demonstrando o funcionamento da automação para o cadastro de um item.
 
 
 https://github.com/GabrielHirt/CadastroDeMateriais/assets/98654562/7b965d3d-d664-46f5-ac2d-aae4bfdaf3de
