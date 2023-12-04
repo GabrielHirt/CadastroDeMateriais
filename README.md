@@ -30,7 +30,8 @@ O código VBA irá ser responsável por criar condições e laços de repetiçã
 - Definirá depósitos.
 - Exportará o código para o cadastro do SAP Gui para a tabela Excel junto com outras informações.
 - O código VBA define uma célula para ser fixada como "target", a partir dessa célula é utilizado o comando "Offset" para a partir do target, selecionar uma a uma das informações do cadastro para cada linha, ao final de cada linha, a célula fixa se move para a próxima abaixo até que nenhum valor seja encontrado.
-- Durante o processo mencionado acima, o código irá passar por uma sequência de condições e loopings. Para cada tipo de material, um escopo de código é acessado, assim diferenciando os campos de cada visão que este tipo de item irá possuir.
+- Durante o processo mencionado acima, o código irá passar por uma sequência de condições e loopings. Para cada tipo de material, um escopo de código é acessado, assim diferenciando os campos de cada visão que este tipo de item irá possuir dentro do SAP Gui.
+- Ao final do processo, no Excel, toda a guia onde os dados a serem inseridos estavam são levados para uma guia para serem aramzenados como histórico. 
 
 
 
