@@ -17,13 +17,19 @@ O objetivo do código é criar uma ligação em um primeiro momento utilizando o
 A partir daqui ocorre uma mescla de VBA e SAP Scipting.
 
 ### O SAP Scripting
-Responsável por servir como orientação/ localização dos inputs presentes dentro da transação de criação de materiais (MM03). Irá servir para passagem entre guias, retroceder etc. </br></br>
-## Visual Basic for Application
+Responsável por servir como orientação/ localização dos inputs presentes dentro da transação de criação de materiais (MM01 - Criação de Materiais). Irá servir para passagem entre guias, retroceder etc. </br></br>
+### Visual Basic for Application
 É o responsável for realizar tratamentos de dados, seleção de células dentro de uma tabela. Além disso, poderá receber (extração) dados ou enviar (inserção) no SAP. </br></br>
 
-### Como o VBA Atua para Este Caso?
+## Como o VBA Atua para Este Caso?
 O código VBA irá ser responsável por criar condições e laços de repetição para cada linha presente em uma planilha, sendo cada linha um novo item.
-No projeto em questão, há diversos tipos de materiais, o looping maior, que é o primeiro encontrado, irá tratar de verificar
+- Estabelece conexões com os objetos Application, connection, e session. Conecta esses objetos ao objeto WScript.
+- Verifica se há valores na tabela para serem enseridos, caso não existam, saíra da Sub.
+- Caso existam, é acessada a trasação MM01.
+- Serão selecionadas as visões (guias) que serão criadas para aquele tipo de material e o tipo do material.
+- Definirá depósitos.
+- Exportará o código para o cadastro do SAP Gui para a tabela Excel junto com outras informações.
+- O código irá passar por uma sequência de condições e loopings. Para cada tipo de material, um escopo de código é acessado, assim diferenciando os campos de cada visão que este tipo de item irá possuir.
 
 
 
