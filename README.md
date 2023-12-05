@@ -24,12 +24,12 @@ https://github.com/GabrielHirt/CadastroDeMateriais/assets/98654562/7b965d3d-d664
 - Visual Basic for Application (VBA)
 
 # Como o código funciona?
-O objetivo do código é criar uma ligação em um primeiro momento utilizando o SAP Scripting dentro do VBA, logo no início do código. </br>
-A partir daqui ocorre uma mescla de VBA e SAP Scipting.
+O objetivo do código é criar uma ligação em um primeiro momento utilizando o SAP Scripting dentro do VBA. </br>
+Isso irá permitir o uso do VBA e SAP Scipting em conjunto, podendo assim manipular o SAP Gui em conjunto com  o Excel.
 
 ### O SAP Scripting
 Responsável por servir como orientação/ localização dos inputs, passagem entre guias, retroceder etc. </br></br>
-### Visual Basic for Application
+### Visual Basic for Application (VBA)
 É o responsável por realizar tratamentos de dados, seleção de células dentro de uma tabela. Além disso, poderá receber (extração) dados ou enviar (inserção) no SAP. </br></br>
 
 ## Como o VBA Atua para Este Caso?
